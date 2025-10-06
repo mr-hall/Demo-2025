@@ -1,7 +1,9 @@
 import pygame
 
 def events():
-    pass
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            return True
 
 
 def update():
@@ -15,8 +17,9 @@ def draw(screen):
 
 def main():
     screen = pygame.display.set_mode((200,200))
-    while True:
-        events()
+    done = False
+    while not done:
+        done = events()
         update()
         draw(screen)
 
