@@ -11,7 +11,7 @@ def draw():
 
 
 def main():
-    while True
+    while True:
         events()
         update()
         draw()
