@@ -19,6 +19,7 @@ def mainloop():
     #objects
     button = Button(40, 40, (0,255,0))
     button2 = Button(180,180, (0,0,255))
+
     running = True
     while running:
         #check events
