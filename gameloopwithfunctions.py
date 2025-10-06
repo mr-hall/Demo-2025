@@ -1,3 +1,5 @@
+import pygame
+
 def events():
     pass
 
@@ -11,6 +13,7 @@ def draw():
 
 
 def main():
+    screen = pygame.()s
     while True:
         events()
         update()
